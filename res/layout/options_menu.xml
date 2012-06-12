@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item android:id="@+id/continue_game"
+    android:title="Continue Game" />
+
+<item android:id="@+id/new_game"
+    android:title="New Game" />
+
+<item android:id="@+id/about_game"
+    android:title="About" />
+
+<item android:id="@+id/help_game"
+    android:title="help" />
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">User Application</string>
+    <string name="tvtext">Options menu test page!</string>
+    <string name="hintstr">This is a hint string</string>
+    <string name="playgame">Play Game</string>
+    <string name="creategame">Create Game</string>
+</resources>

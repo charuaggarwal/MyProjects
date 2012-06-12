@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/start_menu_background"
+    android:orientation="vertical"
+    android:id="@+id/just_a_test">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/techno"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true">
+
+            <TableRow>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello world."/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I'm another cell"/>
+                </TableRow>
+
+            <TableRow>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Just more stuff"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="And one last one"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

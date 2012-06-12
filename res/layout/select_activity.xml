@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:stretchColumns="*"
+    android:background="@drawable/horse_select_activity">
+    
+    <TableRow >
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="225dp"/>
+    </TableRow>
+    <TableRow >
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <Button 
+            android:id="@+id/bPlayGame"
+            android:text="@string/playgame"
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_select_activity" 
+                       />
+       
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow >
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"/>
+    </TableRow>
+    <TableRow >
+         <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <Button 
+            android:id="@+id/bCreateGame"
+            android:text="@string/creategame"
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_select_activity" 
+                       />
+       
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    
+     <TableRow >
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="750dp"/>
+    </TableRow>
+    
+
+</TableLayout>
